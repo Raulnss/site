@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved.">
+  <assemblyIdentity name="WinPE-MDAC-Package" version="10.0.22000.1641" processorArchitecture="amd64" language="hu-HU" buildType="release" publicKeyToken="31bf3856ad364e35" />
+  <package identifier="WinPE-MDAC_hu-HU" releaseType="Language Pack">
+    <parent disposition="detect" integrate="separate">
+      <assemblyIdentity name="WinPE-MDAC-Package" version="10.0.22000.1641" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" />
+    </parent>
+    <update description="WinPE-MDAC-Package-OnecoreEnduser" displayName="WinPE-MDAC-Package-OnecoreEnduser" name="WinPE-MDAC-Package-OnecoreEnduser">
+      <applicable disposition="detect">
+        <detectUpdate>
+          <parent name="WinPE-MDAC-Package-OnecoreEnduser" />
+        </detectUpdate>
+      </applicable>
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="WinPE-MDAC-Package-OnecoreEnduser" version="10.0.22000.1" processorArchitecture="amd64" language="hu-HU" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+      </package>
+    </update>
+    <update description="WinPE-MDAC-Package-enduser" displayName="WinPE-MDAC-Package-enduser" name="WinPE-MDAC-Package-enduser">
+      <applicable disposition="detect">
+        <detectUpdate>
+          <parent name="WinPE-MDAC-Package-enduser" />
+        </detectUpdate>
+      </applicable>
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="WinPE-MDAC-Package-enduser" version="10.0.22000.1" processorArchitecture="amd64" language="hu-HU" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+      </package>
+    </update>
+    <update description="WinPE-MDAC-Package-com" displayName="WinPE-MDAC-Package-com" name="WinPE-MDAC-Package-com">
+      <applicable disposition="detect">
+        <detectUpdate>
+          <parent name="WinPE-MDAC-Package-com" />
+        </detectUpdate>
+      </applicable>
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="WinPE-MDAC-Package-com" version="10.0.22000.1" processorArchitecture="amd64" language="hu-HU" buildType="release" pub
